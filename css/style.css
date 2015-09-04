@@ -982,6 +982,19 @@ ul.grid li.tools {
     color:#2EB439;
 }
 
+@media screen and (max-width: 900px) {
+	ul.grid li {
+	width: 50%;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+	ul.grid li {
+	width: 100%;
+}
+
+}
 /* at start */
 .my-mfp-slide-bottom .mfp-content {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
