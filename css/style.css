@@ -964,22 +964,33 @@ ul.grid li {
 
 ul.grid li.programming {
     background-color:white;
-    color:#C264A9;
+    color:#9C27B0;
 }
 
 ul.grid li.theoretic {
     background-color:white;
-    color:#4C96C5;
+    color:#FF5722;
 }
 
 ul.grid li.knowledge {
     background-color:white;
-    color:#EA981C;
+    color:#03A9F4;
 }
 
 ul.grid li.tools {
     background-color:white;
-    color:#2EB439;
+    color:#8BC34A;
+}
+
+ul.grid img {
+    width: 16px;
+}
+
+ul.grid td.star {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 16px;
+    vertical-align: middle;
 }
 
 @media screen and (max-width: 900px) {
