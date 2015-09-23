@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.12.15)  20 SEP 2015 22:07
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2014.12.15)  23 SEP 2015 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -917,87 +917,33 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 89.
+(Font)              <9> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 89.
-LaTeX Font Info:    Try loading font information for U+mvs on input line 112.
+(Font)              <6> on input line 78.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 78.
 
-(/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Fontin.otf does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'Fontin.otf(1)' created for font 'Fontin.otf' with options
-. [Mapping=tex-text,SmallCapsFont=Fontin-SmallCaps.otf].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"[Fontin.otf]/ICU:mapping=tex-text;"
-. 
-. * 'small caps' with NFSS spec.:
-. <->"[Fontin-SmallCaps.otf]/ICU:mapping=tex-text;"
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Fontin.otf does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'Fontin.otf(1)' created for font 'Fontin.otf' with options
-. [Mapping=tex-text,SmallCapsFont=Fontin-SmallCaps.otf].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Fontin.otf does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'Fontin.otf(1)' created for font 'Fontin.otf' with options
-. [Mapping=tex-text,SmallCapsFont=Fontin-SmallCaps.otf].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font Fontin.otf does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'Fontin.otf(1)' created for font 'Fontin.otf' with options
-. [Mapping=tex-text,SmallCapsFont=Fontin-SmallCaps.otf].
-. 
-. This font family consists of the following shapes:
-.................................................
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
- [1
+Overfull \hbox (6.33733pt too wide) in paragraph at lines 78--100
+[][] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
+[1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 144.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 144.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 179.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 179.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
  ) 
 Here is how much of TeX's memory you used:
- 21662 strings out of 493918
- 395506 string characters out of 6150562
- 458340 words of memory out of 5000000
- 24770 multiletter control sequences out of 15000+600000
- 4581 words of font info for 36 fonts, out of 8000000 for 9000
+ 21653 strings out of 493918
+ 395058 string characters out of 6150562
+ 463340 words of memory out of 5000000
+ 24759 multiletter control sequences out of 15000+600000
+ 5983 words of font info for 41 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 46i,10n,48p,10451b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,8n,48p,10451b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cv.pdf (1 page).

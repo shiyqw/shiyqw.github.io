@@ -52,18 +52,7 @@ ItalicFont = Fontin-Italic.otf
 %--------------------BEGIN DOCUMENT----------------------
 \begin{document}
 
-%WATERMARK TEST [**not part of a CV**]---------------
-%\font\wm=''Baskerville:color=787878'' at 8pt
-%\font\wmweb=''Baskerville:color=FF1493'' at 8pt
-%{\wm 
-%	\begin{textblock}{1}(0,0)
-%		\rotatebox{-90}{\parbox{500mm}{
-%			Typeset by Alessandro Plasmati with \XeTeX\  \today\ for 
-%			{\wmweb \href{http://www.aleplasmati.comuv.com}{aleplasmati.comuv.com}}
-%		}
-%	}
-%	\end{textblock}
-%}
+\small
 
 \pagestyle{empty} % non-numbered pages
 
@@ -88,18 +77,21 @@ ItalicFont = Fontin-Italic.otf
 \section{Education \& Experience}
 \begin{tabular}{rl}	
 
- \textsc{2012}-Present & Bachelor in School of Electronic Engineering and Computer Science, \textbf{Peking University} \\
-
-
-&\normalsize \textsc{Total Gpa}: 3.68/4.00~~~\normalsize \textsc{Major Gpa}: 3.72/4.00 \\
-
-&\\
-
-\textsc{2014}-Present & Research Assistant at Software Engineering Institute, \textbf{Peking University} \\
+ \textsc{2012-Present} & BS Candidate in Computer Science, School of Electronic Engineering and Computer Science, \textbf{Peking University} \\
+%&\normalsize \textsc{Major}: Computer Science 
+%&\normalsize \textsc{Selected Courses}: Compiler (92), Programming Languages (94), \\
+%& \qquad\qquad\qquad\qquad~Network [Honor track] (92), Algorithm Analysis (100), <Full List> \\
+&\textsc{Total Gpa}: 3.68/4.00~~|~~\normalsize \textsc{Major Gpa}: 3.72/4.00 \\
+&\normalsize \textsc{Teaching Assistant}: Algorithm Design and Analysis \\
 
 &\\
 
-\textsc{July} 2015 & Research Internship at Computer Science Department \textbf{Carnegie Mellon University} \\
+\textsc{2014-Present} & Research Assistant at Software Engineering Institute, \textbf{Peking University} \\
+&\normalsize \textsc{Research Fields}: Software Testing; Program Analysis \& Optimization | \textsc{Advisor}: Yingfei Xiong\\
+&\\
+
+\textsc{July} 2015 & Research Internship at Computer Science Department, \textbf{Carnegie Mellon University} \\
+&\normalsize \textsc{Research Fields}: Programming Languages; Software Architecture | \textsc{Advisor}: Jonathan Aldrich\\
 
 &\\
 
@@ -109,36 +101,79 @@ ItalicFont = Fontin-Italic.otf
 %Section: Awards
 \section{Awards}
 \begin{tabular}{rl}
- \textsc{Sept.} 2006 & Scholarship for graduate students with an outstanding curriculum \footnotesize(\EURcr 30,000)\normalsize\\
-\textsc{June} 2006 & {\textsc{Gmat}\textregistered}\setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}: 730 (\textsc{q:50;v:39}) 96\textsuperscript{th} percentile; \textsc{awa}: 6.0/6.0 (89\textsuperscript{th} percentile)
+ \textsc{Oct.} 2013 & Outstanding Academic Award of Peking University\\
+ \textsc{May.} 2014 & 3rd Prize of 13th ACM Programming Contest in Peking University\\
+ \textsc{Oct.} 2014 & Wusi Scholarship of Peking University\\
 \end{tabular}
 
 %Section: Research
 \section{Research Projects}
-\begin{tabular}{rl}
- \textsc{Sept.} 2006 & Scholarship for graduate students with an outstanding curriculum \footnotesize(\EURcr 30,000)\normalsize\\
-\textsc{June} 2006 & {\textsc{Gmat}\textregistered}\setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}: 730 (\textsc{q:50;v:39}) 96\textsuperscript{th} percentile; \textsc{awa}: 6.0/6.0 (89\textsuperscript{th} percentile)
+\begin{tabular}{rp{15cm}}
+\textsc{Ongoing} & \textbf{Dynamic Mutation Analysis} (Software Testing, Program Analysis | C++)\\
+& A novel model of mutation analysis that analyzes mutants during the execution of the program, and forks the execution only when a mutant leads to a new system state.\\
+& Supervised by Yingfei Xiong, Software Engineering Institute, Peking University \\
+& Paper submitted to ICSE 2016\\
+&\\
+ 
+\textsc{2015} & \textbf{Module System for Architectural Control} (Software Architecture, Programming Languages | Java)\\
+& A module system based on Wyvern Language to enforce the architectural behavior by integrating these architectural descriptions directly into the language.\\
+& Supervised by Jonathan Aldrich, Institute of Software Research, Carnegie Mellon University \\
+&\\
+ 
+\textsc{2014-2015} & \textbf{Contextual Dynamic QR Code} (Mobile Computing | HTML+Servlet+Android)\\
+& A novel QR code system which accepts inputs from many phone sensors besides the phone camera, and dynamically vary its output according to various contexts where the code is published.\\
+& Supervised by Kaigui Bian, Institute of Network Computing and Information Systems, Peking University \\
+& Paper submitted to IEEE ICC 2016\\
+& Patent accepted by State Intellectual Property Office of China.\\
+&\\
+
 \end{tabular}
 
 %Section: Course Projects
 \section{Course Projects}
+%\small
 \begin{tabular}{rl}
- \textsc{Sept.} 2006 & Scholarship for graduate students with an outstanding curriculum \footnotesize(\EURcr 30,000)\normalsize\\
-\textsc{June} 2006 & {\textsc{Gmat}\textregistered}\setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}: 730 (\textsc{q:50;v:39}) 96\textsuperscript{th} percentile; \textsc{awa}: 6.0/6.0 (89\textsuperscript{th} percentile)
+\textsc{Fall} 2012 & %Introduction to Computing [Honor Track]  
+Poem Search Engine Based on LSI System (C+MATLAB) \\
+
+\textsc{Fall} 2013 & %Practice of Data Structure and Algorithms 
+Vi-like Text Editor Based on NCurses (C++) \\
+
+\textsc{Fall} 2013 & %ICS (CMU 15-213) 
+ICS Labs (Data, Bomb, Attack, Arch, Cache, Malloc, Shell, Proxy)\\
+
+\textsc{Spring} 2014 & %SICP (UC-Berkley CS-61A)
+A Scheme Metacircular Evaluator (Scheme) \\
+
+\textsc{Spring} 2014 & %Algorithm Design and Analysis
+Metaheuristics for Float-Point Inaccuracy Detection \\
+
+\textsc{Fall} 2014 & %Practice for Compiler Design (UCLA CS-132)
+5-Step MiniJava to MIPS Compiler (Java) \\
+
+\textsc{Spring} 2015 & %Software Engineering 
+TuanJuPKU, a Platform for PKU Unions (Android+HTML) \\
+
+\textsc{Spring} 2015 & %Design Principle of Programming Languages  
+A Programming Language for Complexity Control (OCaml)\\
+
+\textsc{Spring} 2015 & %Computer Network [Honor Track] 
+Face Mock Show on WebChat (HTML+Python) \\
+
 \end{tabular}
 
 
 %section Skills
-\section{Computer Skills}
+\section{Skills}
 \begin{tabular}{rl}
- Basic Knowledge:& \textsc{php}, my\textsc{sql}, \textsc{html}, Access, \textsc{Linux}, ubuntu, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}\\
-Intermediate Knowledge:& \textsc{vba}, Excel, Word, PowerPoint\\
+ \textsc{Programming}: & Java, C, C++, Python, Web, Scheme, OCaml, Android\\
+ \textsc{Tools}: & Linux, Git, LaTeX, MATLAB\\
+ \textsc{English}: & TOEFL 106 (R28+L27+S23+W28)
 \end{tabular}
 
 %Section Interests
-\section{Interests and Activities}
-Technology, Open-Source, Programming\\
-Paradoxes in Decision Making, Psychoanalysis, Behavioural Finance\\
-Football, Travelling
+\section{Interests}
+Accordion (Level 10, Top level), WeiQi (Amateur Don 2, Near Professional), Chinese Calligraphy (Level 5), \\
+Classical Music, Hi-Fi, Golf, Soccer, Coffee, Photography, Bridge.
 
 \end{document}
