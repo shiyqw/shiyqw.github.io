@@ -118,9 +118,9 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	bottom: 0;
 	right: 0px;
 	background-color: #000;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
-	filter: alpha(opacity=25);
-	opacity: 0.25;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=5)";
+	filter: alpha(opacity=5);
+	opacity: 0.05;
 	display: none;
 	z-index: 300;
 	cursor: crosshair;
@@ -378,9 +378,9 @@ ul#navigation li .icon {
 	position: absolute;
 	width: 100%;
 	color:#fff;
-	bottom: 0;
+	top: 0;
 	background-color: black;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.35);
 	padding:25px;
 }
 .biothumb .overlay h1{
@@ -1128,7 +1128,6 @@ ul.timeline .date {
 
 @media (max-width: 991px) {
 	.mobilemenu {
-	display: block;
 }
 
 .social-icons,#main-nav {
