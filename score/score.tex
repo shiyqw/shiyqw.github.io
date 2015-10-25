@@ -1,0 +1,144 @@
+\documentclass[a4paper,10pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** \usepackage{fullpage} **
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\usepackage{geometry}
+\geometry{left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
+%%% modified for Karol Kozioł for ShareLaTeX use
+\setmainfont[
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin.otf}
+%%%
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+%Italian hyphenation for the word: ''corporations''
+\hyphenation{im-pre-se}
+
+%-------------WATERMARK TEST [**not part of a CV**]---------------
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+\small
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge Full Score List 
+	}\par}
+
+
+\bigskip
+
+%--------------------SECTIONS-----------------------------------
+
+
+%Section: Education
+\section{Mathematics}
+\begin{tabular}{p{7.2cm}p{1cm}cp{7.2cm}p{1cm}}	
+
+Advanced Mathematics (I) & 99 & ~~ & Advanced Mathematics (II) & 85 \\
+Advanced Algebra (I) & 87 & ~~ & Advanced Algebra (II) &  92 \\
+Algebra Structure and Combinatorial Mathematics &  94  & ~~ &  Set Theory and Graph Theory & 89\\ 
+Probability Theory and Statistics & 79 & & & \\
+\end{tabular}
+
+\section{Physics}
+\begin{tabular}{p{7.2cm}p{1cm}cp{7.2cm}p{1cm}}
+MicroElectronics and Circuits & 90 & ~~ & Electromagnetism & 88 \\ 
+Mechanics & 85 & ~~ & Basic Experiments of Electrocircuit & 82 \\
+\end{tabular}
+
+\section{CS Basic}
+\begin{tabular}{p{7.2cm}p{1cm}cp{7.2cm}p{1cm}}
+Algorithm Design and Analysis & 100 & ~~ & Data Structure and Algorithms & 86 \\	
+Introduction to Computer System & 82 & ~~ & Introduction to Computing [Honor Track] & 82 \\ 
+Introduction to Information Science and Technique & FAIR & & &  \\
+\end{tabular}
+
+\section{CS Advanced}
+\begin{tabular}{p{7.2cm}p{1cm}cp{7.2cm}p{1cm}}	
+Design Principles of Programming Languages & 93.5 & ~~ & Computer Organization & 92 \\
+Compiler Design & 92 & ~~ & Computer Network [Honor Track] & 92 \\
+Structure and Interpretation of Computer Program & 91 & ~~ & Biometrics & 90  \\
+Software Engineering & 88 & ~~ & Web Software Technology & 86\\
+Operating Systems & 84 & & &\\
+\end{tabular}
+
+\section{CS Practice}
+\begin{tabular}{p{7.2cm}p{1cm}cp{7.2cm}p{1cm}}
+Practice of Programming in C and C++ & 98 & ~~ & Practice of Data Structure and Algorithm & 92 \\
+Practicum on Research Methodology and Culture & 90 & ~~  & Practice of Compiler Design & 90 \\
+Microcomputer Experiments & 84 & & & \\
+\end{tabular}
+
+\section{English}
+\begin{tabular}{p{7.2cm}p{1cm}cp{7.2cm}p{1cm}}	
+College English (II) & 85 & ~~ & College English (IV) & 84 \\
+Advanced English Writing & 84 & ~~ &  Advanced College English: Reading and Writing & 80\\
+
+\end{tabular}
+
+\section{Sports}
+\begin{tabular}{p{7.2cm}p{1cm}cp{7.2cm}p{1cm}}	
+Golf & 94 & ~~~~ & Soccer & 85 \\
+Shadowboxing & 84 & ~~ & Table Tennis & 83 \\
+\end{tabular}
+
+\section{General Optional Courses and Campus Public Courses}
+\begin{tabular}{p{7.2cm}p{1cm}cp{7.2cm}p{1cm}}
+Bridge & 96 & ~~ & WeiQi & 95 \\
+Nutrition and Disease & 94 & ~~ &  Appreciation of Chinese and Foreign Famous Songs & 90 \\
+Introduction to Seismology & 85 & ~~ & History of Western Music & 84 \\
+American Culture and Society & 84 & ~~ &  Introduction to Advertising & 81\\
+
+\end{tabular}\\
+\section{Pollitics}
+\begin{tabular}{p{7.2cm}p{1cm}cp{7.2cm}p{1cm}}
+Introduction to Ideological and Moral and Laws & 92  & ~~ & Events and Policies & 87\\
+Military Theory & 83& ~~ & Outline of Chinese Modern History & 82 \\
+Introduction to Marxist Basic Theory & 80  & & & \\
+\end{tabular}\newline\newline\newline
+
+\begin{flushright}
+\large
+Average GPA: 3.67 \\
+Major GPA: 3.72
+\end{flushright}
+\end{document}
