@@ -516,7 +516,7 @@
 
                 </div>
 
-                <!--div id="gallery" class="page">
+                <div id="gallery" class="page">
                     <div class="pageheader">
                         
                         <div class="headercontent">
@@ -795,7 +795,7 @@
                         </div>
                     </div>
                     
-                </div-->
+                </div>
 
                 <div id="academic" class="page">
                     <div class="pageheader">
@@ -1009,7 +1009,7 @@
                                                 <div class="col-sm-6 col-md-12">
                                                     <div class="meta">
                                                         <h3>
-                                                            Vi-like Text Editor &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/extraRed/Text-editor"><i class="icon-github"></i></a>
+                                                            3D Reconstruction &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/extraRed/Text-editor"><i class="icon-github"></i></a>
                                                         </h3>
                                                         Practice of Data Structure and Algorithms
                                                     </div>
@@ -1024,7 +1024,7 @@
                                                 <div class="col-sm-6 col-md-12">
                                                     <div class="meta">
                                                         <h3>
-                                                            Frequent Pattern Mining &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/shiyqw/frequent_pattern_mining"><i class="icon-github"></i></a>
+                                                            3D Reconstruction &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/shiyqw/frequent_pattern_mining"><i class="icon-github"></i></a>
                                                         </h3>
                                                         Practice of Data Structure and Algorithms
                                                     </div>
@@ -1151,7 +1151,7 @@
                                                 <div class="col-sm-6 col-md-12">
                                                     <div class="meta">
                                                         <h3>
-                                                            Face Mock Show &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://facemm.avosapps.com"><i class="icon-link"></i></a>
+                                                            Face Mock Show &nbsp;&nbsp;&nbsp;&nbsp;<a href="facemm.avosapps.com"><i class="icon-link"></i></a>
                                                         </h3>
                                                         Computer Network (Honor Track)
                                                     </div>
@@ -1169,7 +1169,7 @@
                     </div>
                 </div>
                 
-            <!--div id="more" class="page">
+            <div id="more" class="page">
                 <div class="pageheader">
                     <div class="headercontent">
                         <div class="section-container">
@@ -1341,7 +1341,7 @@
                             </div>
                         </div>
                     </div>
-                </div--> 
+                </div> 
 
                 
             
