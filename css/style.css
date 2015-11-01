@@ -1151,3 +1151,7 @@ ul.timeline .date {
 td.trr {
     padding: 5px 20px!important;
 }
+
+h3 i {
+    font-size: 70%;
+}
