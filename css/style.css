@@ -1126,6 +1126,7 @@ ul.timeline .date {
 
 @media (max-width: 991px) {
 	.mobilemenu {
+        display:block;
 }
 
 .social-icons,#main-nav {
