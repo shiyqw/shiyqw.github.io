@@ -1,35 +1,38 @@
 <html>
 <body>
-Checkpoint summary
-The general goal of our project is to implement a lock-free concurrent hashmap in C++. In the TA's feedback, we are encouraged to complemete more work rather than simply implementing a single hashmap data structure. Now we modified our goals a bit. In this project, we will implement lock-free concurrent hashmap in C++ with different collision resolution method and evaluate their performance. In specific, we are trying to implement our lock-free concurrent hashmap with linear probing, leapfrog probing (http://preshing.com/20160314/leapfrog-probing/) and cuckoo hashing. If still have free time, we will try to extend our implementations on more collision resolution methods.  
+    <h4>Checkpoint summary</h4>
+
+        The general goal of our project is to implement a lock-free concurrent hashmap in C++. In the TA's feedback, we are encouraged to complemete more work rather than simply implementing a single hashmap data structure. Now we modified our goals a bit. In this project, we will implement lock-free concurrent hashmap in C++ with different collision resolution methods and evaluate their performances. In specific, we are trying to implement our lock-free concurrent hashmap with linear probing, <a href="http://preshing.com/20160314/leapfrog-probing/"> leapfrog probing </a>and cuckoo hashing. If still have free time, we will try to extend our implementations on more collision resolution methods.  </br>
 
 
-Completed work
-As scheduled, the first week we will focus on background study and decide the base implementation method. We've read several related work. The followings is the list of the materials we have read.
+    <h4>Complete Work</h4> 
+    As scheduled, the first week we focused on background study and deciding the base implementation method. We've read several related work. The following is the list of the materials we have read.</br>
+    (1) <a href = "http://web.stanford.edu/class/ee380/Abstracts/070221_LockFreeHash.pdf"> A Lock-Free Wait-Free Hash Table</a></br>
+    (2) <a href = "http://erdani.com/publications/cuj-2004-12.pdf">Lock-Free Data Structures with Hazard Pointers</a></br>
+    (3) <a href = "The World's Simplest Lock-Free Hash Table"> The World's Simplest Lock-Free Hash Table</a></br>
+    (4) <a href = "http://www.azulsystems.com/blog/cliff/2007-03-26-non-blocking-hashtable"> A Non-Blocking HashTable </a></br>
 
-After discussion we decided to use the method from XX as our base implementation. 
+After discussion we decided to base our implementation on the method in the forth material. This method have a Java implementation called NonBlockingHashMap. We are trying to re-implemented it on top of C++. We are still working on it until now. </br>
 
-We recieved our feedback on the first days of the second week. We discussed several available extension of our works and we decided to focus our extension on different collision resolution methods. We researched on several different collision resolution methods and decided to choose linear probing, leapfrog probing and cuckoo hashing as our goal functions. 
+We recieved our feedback on the first days of the second week. We discussed several available extensions of our works and we decided to focus our extension on different collision resolution methods. We researched on several different collision resolution methods and decided to choose linear probing, leapfrog probing and cuckoo hashing as our goal functions. </br>
 
-We also started the base implementation of XX. We re-implemented the Java's according to the rules. This work is still going on.
+    <h4>Prelimary results</h4> 
 
+    Recently we did not have any prelimary results as the base code is still under implementation and has some bugs. We plan to finish the implementation by this weekend and move our work onto GitHub. </br>
 
-Prelimary result
+    <h4>Revised Schedule</h4> 
+    Before Apr 28th, we will set up our GitHub repository and build the environment for evaluation </br>
+    Before May 1st, we will finish the implementation of base code (C++ version NonBlockHahsing Map with linear probing). </br>
+    Before May 6th, we will extend our work on cuckoo hashing and leapfrog probing. </br>
+    Before May 9th, we will finish the evaluation, comparison and analysis of the performance with different collision resolution. If still have time we will further extend our work to more probing methods if we still have time.  </br>
+    Before May 12th, we will finish our final writeup and website build. </br>
 
-Recently we did not have any prelimary results as the base implementation is still going on and has some bugs. We plan to finish the implementation by this weekend and move our work onto GitHub. 
+    <h4>Concerns</h4> 
 
-Revised schedule
-Before May 1st
-Before May 8th
-Before May 10th
-Before May 12th
+    We mainly have two concerns: </br>
+    (1) We are still finding Benchmark we will compete with. We recently found <a href="https://github.com/khizmax/libcds">CDS C++ Library</a>. It includes a implementation of lock-free unordered_map. We recently decided to use it as our benchmark competitor. However, this library seems difficult to configure and move into our project. So we will appreciate if some other easier benchmark competitor can be probided. </br>
 
-Concern
-
-We mainly have two concerns:
-(1) We are still finding Benchmark we are competeing with. We recently find XXX. It includes a implementation of lock-free concorruent hashmap. We recently decided to use it as our benchmark competitor. 
-
-(2) We are still finding test data for our implementation and we have NOT found yet. We will appreciate if some resource can be provided!
+    (2) We are still finding test data for our implementation to test performance and evaluation and we have <b>NOT</b> found yet. We will appreciate if some resource can be provided! </br>
 
 </body>
 
