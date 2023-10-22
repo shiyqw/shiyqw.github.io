@@ -25,7 +25,7 @@ main focus during this program is system, AI and theory.
 ## Selected Course Projects
 *  Competitive dining paring service (Python, Django) 
 *  Facial Alignment with Multistream RNN (Python, Tensorflow) [github](https://github.com/Tian-Qin/multistream_facial_align)
-*  Lock-Free Hash Table (C++) [github](ihttps://github.com/shiyqw/lfhash)
+*  Lock-Free Hash Table (C++) [github](https://github.com/shiyqw/lfhash)
 
 # Peking University (B.S.)
 I guraduated with Bachelor of Science in Computer Science major, SUMMA CUM 
@@ -36,6 +36,8 @@ My undergraduate research focus was programming languages and software testing.
 I was part of the top-notch plan (<10% acceptance rate).
 
 ## Selected Courses
+[Full Undergraduate Transcript](assets/files/score.pdf)
+
 ### Mathematics / Theory
 *  Advanced Calculus
 *  Advanced Algebra
@@ -77,31 +79,31 @@ I was part of the top-notch plan (<10% acceptance rate).
 
 ## Selected Course Projects
 *  Face Mock Show (Python, Flask, Face++)
-*  Complexity-Control Programming Languages (OCaml, Type System) [github]() [report]()
-*  Android Application for PKU Unions administration (Android, Java) [github]() [report]()
-*  Mini Java Compiler (Java, Compiler) [github]() [report]()
-*  Schema Metacircular Evaluator (Scheme, Functional Programming) [github]() [report]()
-*  8 Labs of Introduction to Computer Systems (C++, Shell, Linux) [github]() [report]()
-*  Frequent Pattern Mining (C++, FP-Tree, Apriori) [github]() [report]()
-*  Vi-like Text-editor (C++, Linux NCurses) [github]() [report]()
-*  3D Reconstruction of 2D images (C, SVD decomposition) [github]() [report]()
-*  Poem Search Engine (C, MATLAB, TD-IDF) [github]() [report]()
+*  Complexity-Control Programming Languages (OCaml, Type System) [github](https://github.com/shiyqw/DPPL) [report](assets/files/dppl,pdf)
+*  Android Application for PKU Unions administration (Android, Java) [github](https://github.com/shiyqw/TuanJuPKU) [report](assets/files/tuanjupku.pdf)
+*  Mini Java Compiler (Java, Compiler) [github](https://github.com/shiyqw/miniJava) [report](assets/files/minijava.pdf)
+*  Schema Metacircular Evaluator (Scheme, Functional Programming) [github](https://github.com/shiyqw/beval) [report](assets/files/beval.pdf)
+*  8 Labs of Introduction to Computer Systems (C++, Shell, Linux)
+*  Frequent Pattern Mining (C++, FP-Tree, Apriori) [github](https://github.com/shiyqw/frequent_pattern_mining) [report](assets/files/fptree.pdf)
+*  Vi-like Text-editor (C++, Linux NCurses) [github](https://github.com/shiyqw/Text-editor) [report](assets/files/vi.pdf)
+*  3D Reconstruction of 2D images (C, Algebra) [github](https://github.com/shiyqw/3D_Reconstruction) [report](assets/files/3d.pdf)
+*  Poem Search Engine (C, MATLAB, TD-IDF) [github](https://github.com/shiyqw/LSI-System)
 
 ## Undergraduate Thesis
 *  Dynamic Mutation Analysis (C++, Software Testing, Dynamic Analysis)
-   [pdf]()
+   [pdf](assets/files/pkuthss.pdf)
 
 ## Awards / Honors
 *  **Champion**: 2015 Graduation-Cup Sheng-Ji Tournament
 *  2016 Peking University Excellent Underguradate Thises
-*  3rd Prize: 2015 Peking University Young Scientist Symposium
+*  **3rd Prize**: 2015 Peking University Young Scientist Symposium
 *  2015 Scholorship of Summer Research of Peking University
 *  Rank 341 of 6517: 2014 Microsoft "Beauty of Programming" Contest
-*  Rank 6: 2013 PKU-Cup Contract Bridge Competition
-*  3rd Prize: 2014 Peking University ACM-ICPC Competition
+*  **Rank 6**: 2013 PKU-Cup Contract Bridge Competition
+*  **3rd Prize**: 2014 Peking University ACM-ICPC Competition
 *  2013-2014 Wusi Scholoarship
-*  3rd Prize: 2013 Peking University AI Competition
-*  Runner-up: 2012 Peking University Freshmen Soccer Tournament
+*  **3rd Prize**: 2013 Peking University AI Competition
+*  **Runner-up**: 2012 Peking University Freshmen Soccer Tournament
 *  2012-2013 Outstanding Academic Award
 
 # Early
@@ -112,7 +114,7 @@ Biology.
 
 I was part of training camp for Mathematics Olympics. I got first prize in
  Chinese Mathmatics League and got admitted to Peking University, exempted
- from college entrance exam.
+ from college entrance exam. See intro below:
 
-img here. 
+![Branching](assets/img/efz.png)
 
