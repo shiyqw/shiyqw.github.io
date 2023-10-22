@@ -107,7 +107,8 @@ Intern Project: Guided Workflow Card - New Model and Storage
 *  **Git**
 *  AWS
 *  LLVM
-*  Django Tensorflow
+*  Django 
+*  Tensorflow
 *  Kubernetes
 *  Docker
 
