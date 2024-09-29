@@ -11,11 +11,19 @@ about Google Cloud service disruptions
 
 Role: Software Engineer III (2023-03 to current)
 
+**Impact Delineation in Private Cloud Region (Ongoing project)**
+*  Design and implement an E2E impact processing and notification workflow in a 
+ private Cloud Region
+*  Co-lead the private preview launch
+*  Related skills: GCP, Distributed System, Parallel Computing, Cloud API, Golang
+
 **Notification Workflow for Scheduled Maintenance (Ongoing Project)**
+*  Design and implement maintenance event listener using Cloud Pubsub
 *  Design and implement the processing system in a parallel and distributed model
 *  Design and implement the consumer APIs for viewing all maintenances
 *  Co-lead the private preview launch
-*  Related skills: GCP, Distributed System, Parallel Computing, Cloud API, Golang
+*  Related skills: GCP, Pubsub, Distributed System, Parallel Computing, Cloud API,
+ Golang
 
 ## Team: Virtual Testing
 A high-fidelity simulated production environment for development and release

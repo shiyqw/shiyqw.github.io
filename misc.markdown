@@ -11,7 +11,7 @@ layout: default
 *  I expertise in **Go (Weiqi)**. My current level at Tencent Fox Weiqi is 5D. I won
  the first place in 2020 SF Go Tournament (intermediate group)
 
-*  I play a lot of board games and I am specifically strong at **Wingspan and Azul**.
+*  I play board games and I am specifically strong at **Wingspan and Azul**.
  See my [profile](https://boardgamearena.com/player?id=90639585) on Board Game Arena.
 
 *  I played **Contract Bridge** during undergraduate and I was a member of Peking
@@ -36,7 +36,7 @@ layout: default
 # Hobbies / Other
 *  I am a **Hi-Fi audiophile**. I used to be admin of PKU's Hi-Fi BBS forum. My
  current desktop setup is RME ADI-2 dac -> Monoprice Liquid Platinum -> Focal
- Clear. My favorite device is HD-600.
+ Clear. My favorite device is HD-600. I am currently collecting vinyls.
 
 *  I listen to a variety type of **musics**, including Pop, Cantopop, Mandopop,
  J-Pop, Alt Pop, EDM, Hip-Hop and Classical. My supported artists include Eason
