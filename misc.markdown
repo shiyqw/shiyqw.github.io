@@ -12,7 +12,7 @@ layout: default
  the first place in 2020 SF Go Tournament (intermediate group)
 
 *  I play a lot of board games and I am specifically strong at **Wingspan and Azul**.
- See my [profile](ihttps://boardgamearena.com/player?id=90639585) on Board Game Arena.
+ See my [profile](https://boardgamearena.com/player?id=90639585) on Board Game Arena.
 
 *  I played **Contract Bridge** during undergraduate and I was a member of Peking
  University Contract Bridge Club.
