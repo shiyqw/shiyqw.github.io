@@ -38,10 +38,10 @@ layout: default
  current desktop setup is RME ADI-2 dac -> Monoprice Liquid Platinum -> Focal
  Clear. My favorite device is HD-600. I am currently collecting vinyls.
 
-*  I listen to a variety type of **musics**, including Pop, Cantopop, Mandopop,
- J-Pop, Alt Pop, EDM, Hip-Hop and Classical. My supported artists include Eason
- Chan, Mayday, YOASOBI, Sekai No Owari and Coldplay and Dvorak. Here is my
- [Last.FM profile](https://last.fm/user/shiyqw).
+*  I listen to a variety type of **musics**, including Rock, Pop, Cantopop,
+ Mandopop, J-Pop, Indie, EDM, Hip-Hop and Classical. My supported artists
+ include Eason Chan, Mayday, YOASOBI, Sekai No Owari, Pink Floyd and Dvorak.
+ Here is my [Last.FM profile](https://last.fm/user/shiyqw).
 
 *  I am a **coffee enthusiast**. I like drink Pour overs, Americano and Espresso. 
  My favorite coffee bean is Ethiopia Yirgacheffe.
